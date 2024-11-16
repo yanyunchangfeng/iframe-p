@@ -231,7 +231,8 @@ const webpackConfig = {
         })
       : new NoopPlugin(),
     new webpack.DefinePlugin({
-      AUTHOR: JSON.stringify('yanyunchangfeng')
+      AUTHOR: JSON.stringify('yanyunchangfeng'),
+      ENV: JSON.stringify(NODE_ENV)
     }),
     !isDev
       ? !UMD_LIBRARY

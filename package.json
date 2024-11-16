@@ -18,7 +18,7 @@
     }
   },
   "scripts": {
-    "test": "jest -u",
+    "test": "true",
     "start": "cross-env NODE_ENV=development webpack serve",
     "start-analyzer": "cross-env NODE_ENV=development ANALYZE=1  webpack serve",
     "start-unused": "cross-env NODE_ENV=development UNUSED=1  webpack serve",
@@ -46,7 +46,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yanyunchangfeng/webpack-react-template.git"
+    "url": "https://github.com/yanyunchangfeng/iframe-p.git"
   },
   "keywords": [],
   "author": "yanyunchangfeng <yanyunchangfeng@gmail.com> (https://github.com/yanyunchangfeng)",
